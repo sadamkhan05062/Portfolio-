@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sadam Khan - Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- Navbar -->
+  <header class="bg-blue-900 text-white p-4 fixed w-full top-0 shadow-lg z-50">
+    <nav class="flex justify-between items-center max-w-6xl mx-auto">
+      <h1 class="text-xl font-bold">Sadam Khan</h1>
+      <div class="space-x-6">
+        <a href="#about" class="hover:text-yellow-400">About</a>
+        <a href="#experience" class="hover:text-yellow-400">Experience</a>
+        <a href="#skills" class="hover:text-yellow-400">Skills</a>
+        <a href="#projects" class="hover:text-yellow-400">Projects</a>
+        <a href="#contact" class="hover:text-yellow-400">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="h-screen flex flex-col justify-center items-center bg-gradient-to-r from-blue-900 to-blue-600 text-white text-center">
+    <h2 class="text-5xl font-bold mb-4">Hi, I'm Sadam Khan</h2>
+    <p class="text-xl mb-6">CAFM Specialist | Data Analyst (Aspiring)</p>
+    <a href="#contact" class="bg-yellow-400 text-blue-900 px-6 py-3 rounded-full font-semibold hover:bg-yellow-300 transition">
+      Contact Me
+    </a>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="max-w-5xl mx-auto py-20 px-6">
+    <h2 class="text-3xl font-bold text-blue-900 mb-6">About Me</h2>
+    <p class="text-lg leading-relaxed">
+      I am a CAFM Specialist with 4 years of experience in facilities management, 
+      CAFM system administration (Infor & NEOM Production), and data visualization using Power BI. 
+      I also have a background in IT and operations, which strengthens my ability to support 
+      digital transformation in facility management. I am passionate about leveraging technology 
+      to improve operational efficiency and decision-making.
+    </p>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="bg-white py-20 px-6">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-3xl font-bold text-blue-900 mb-6">Experience</h2>
+      <div class="space-y-6">
+        <div class="p-6 bg-gray-50 shadow rounded-lg">
+          <h3 class="text-xl font-semibold">EFS Facilities Services – CAFM Specialist</h3>
+          <p class="text-gray-600"><strong>2024 – Present</strong></p>
+          <ul class="list-disc ml-6 mt-2">
+            <li>Manage CAFM system operations across NEOM projects (Oxagon Basecamp, Pioneer Camp).</li>
+            <li>Handle Preventive & Corrective Maintenance scheduling.</li>
+            <li>Generate KPI, SLA, and OLA reports and dashboards in Power BI.</li>
+            <li>Provide user support and training for CAFM systems.</li>
+          </ul>
+        </div>
+        <div class="p-6 bg-gray-50 shadow rounded-lg">
+          <h3 class="text-xl font-semibold">Previous Roles</h3>
+          <p class="text-gray-600"><strong>2019 – 2024</strong></p>
+          <ul class="list-disc ml-6 mt-2">
+            <li>Worked across IT support, operations, and client coordination.</li>
+            <li>Gained strong skills in reporting, troubleshooting, and data handling.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="max-w-5xl mx-auto py-20 px-6">
+    <h2 class="text-3xl font-bold text-blue-900 mb-6">Skills</h2>
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-6">
+      <div class="p-4 bg-white shadow rounded-lg text-center">CAFM Administration (Hexagon EAM NEOM Production)</div>
+      <div class="p-4 bg-white shadow rounded-lg text-center">Power BI (Reports & Dashboards)</div>
+      <div class="p-4 bg-white shadow rounded-lg text-center">Excel (Advanced Functions & Automation)</div>
+      <div class="p-4 bg-white shadow rounded-lg text-center">Maximo System (Basic Knowledge)</div>
+      <div class="p-4 bg-white shadow rounded-lg text-center">SQL (Beginner)</div>
+      <div class="p-4 bg-white shadow rounded-lg text-center">Preventive & Corrective Maintenance Scheduling</div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="bg-white py-20 px-6">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-3xl font-bold text-blue-900 mb-6">Projects</h2>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="p-6 bg-gray-50 shadow rounded-lg">
+          <h3 class="text-xl font-semibold">Facility Management Dashboard (Power BI)</h3>
+          <img src="images/Dashboard1.png" alt="Power BI Dashboard" class="rounded mt-3 shadow">
+          <p class="mt-2">Created real-time dashboards integrating CAFM data with Power BI for SLA & KPI tracking.</p>
+        </div>
+        <div class="p-6 bg-gray-50 shadow rounded-lg">
+          <h3 class="text-xl font-semibold">CAFM Preventive Maintenance Automation</h3>
+          <img src="images/Dashboard2.png" alt="CAFM PPM Automation" class="rounded mt-3 shadow">
+          <p class="mt-2">Automated PPM scheduling and reporting, reducing manual effort and improving efficiency by 30%.</p>
+        </div>
+        <div class="p-6 bg-gray-50 shadow rounded-lg">
+          <h3 class="text-xl font-semibold">Issue Escalation & Reporting Workflow</h3>
+          <img src="images/Dashboard3.png" alt="CAFM Workflow" class="rounded mt-3 shadow">
+          <p class="mt-2">Designed and implemented issue escalation workflows in CAFM for accountability and faster resolution.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="max-w-5xl mx-auto py-20 px-6">
+    <h2 class="text-3xl font-bold text-blue-900 mb-6">Contact</h2>
+    <div class="bg-white p-6 shadow rounded-lg">
+      <p>Email: <a href="mailto:sadamkhan@gmail.com" class="text-blue-700">sadamkhan@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/sadam-khan" class="text-blue-700">linkedin.com/in/sadam-khan</a></p>
+      <p>GitHub: <a href="https://github.com/sadamkhan" class="text-blue-700">github.com/sadamkhan</a></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-900 text-white text-center py-6 mt-10">
+    © 2025 Sadam Khan | Portfolio
+  </footer>
+
+  <!-- Animation -->
+  <script>
+    ScrollReveal().reveal('section', {
+      duration: 1000,
+      distance: '50px',
+      easing: 'ease-in-out',
+      origin: 'bottom',
+      interval: 200
+    });
+  </script>
+
+</body>
+</html>
